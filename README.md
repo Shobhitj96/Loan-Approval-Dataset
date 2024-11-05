@@ -48,6 +48,22 @@ Ensemble Voting Classifier
 
 To leverage the strengths of both Random Forest and XGBoost, an ensemble voting classifier was used. **This ensemble approach resulted in an accuracy of 89%, with enhanced recall for the risky class, balancing prediction strength across both categories.**
 
+**Key Insights**
+
+Total Income from Risky Cases: The initial analysis identified a total income of $154.15 billion from high-risk cases flagged by the model.
+
+Estimated Loss from Risky Cases: Assuming a 10% loss on these high-risk cases, the potential loss was estimated at $15.42 billion.
+
+**Improvement Impact**
+
+**Model Improvement**: By enhancing the model’s accuracy by 1.48%, the model successfully identified 458 fewer risky cases.
+
+**New Estimated Loss**: Following the model improvement, the projected loss was reduced to $15.19 billion.
+
+**Estimated Savings**: This enhancement led to an estimated savings of $227.78 million, underscoring the model’s effectiveness in reducing financial exposure.
+
+
+
 **Conclusion**
 
 The combination of feature selection, rigorous model evaluation, and the final ensemble approach led to a model that offers substantial predictive power for loan risk assessment. This project demonstrated an increase in accuracy and recall, especially for high-risk applicants, providing valuable insights for lending decisions. The optimized XGBoost and ensemble models showcase how machine learning can effectively support risk management in financial services, enabling more confident and data-driven lending.
